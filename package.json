@@ -1,0 +1,41 @@
+{
+    "name":        "grunt-princess",
+    "homepage":    "http://github.com/rse/grunt-princess",
+    "description": "Grunt Task for running PrinceXML",
+    "version":     "0.9.0",
+    "license":     "MIT",
+    "author": {
+        "name":    "Ralf S. Engelschall",
+        "email":   "rse@engelschall.com",
+        "url":     "http://engelschall.com"
+    },
+    "keywords": [
+        "gruntplugin",
+        "prince", "xml", "pdf"
+    ],
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/rse/grunt-princess.git"
+    },
+    "bugs": {
+        "url":  "http://github.com/rse/grunt-princess/issues"
+    },
+    "main": "Gruntfile.js",
+    "devDependencies": {
+        "grunt":                "~0.4.5",
+        "grunt-cli":            "~0.1.13",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-clean":  "~0.6.0",
+        "grunt-eslint":         "~0.6.0"
+    },
+    "dependencies": {
+        "prince":               ">=0.9.6",
+        "chalk":                ">=0.5.1"
+    },
+    "peerDependencies": {
+        "grunt":                ">=0.4.0"
+    },
+    "engines": {
+        "node":                 ">=0.10.0"
+    }
+}
