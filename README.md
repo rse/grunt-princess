@@ -1,5 +1,8 @@
 
-# grunt-princess
+# Grunt-Princess
+
+[Grunt](http://gruntjs.com/) Task for executing [PrinceXML](http://www.princexml.com/) via
+[Node-Prince](https://github.com/rse/node-prince) integration API.
 
 Grunt Task for running PrinceXML
 
