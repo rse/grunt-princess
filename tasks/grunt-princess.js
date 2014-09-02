@@ -34,7 +34,7 @@ module.exports = function (grunt) {
     grunt.registerMultiTask("princess", "Run PrinceXML", function () {
         /*  prepare options  */
         var options = this.options({
-            binary:  "prince",
+            binary:  "",
             prefix:  "",
             license: "",
             timeout: 10 * 1000,
@@ -50,14 +50,17 @@ module.exports = function (grunt) {
         var output = this.files[0].dest;
 
         /*  configure an PrinceXML execution instance  */
-        var prince = Prince()
-            .binary(options.binary)
-            .prefix(options.prefix)
-            .license(options.license)
-            .timeout(options.timeout)
-            .cwd(options.cwd)
-            .inputs(inputs)
-            .output(output);
+        var prince = Prince();
+        if (options.binary !== "")
+            prince.binary(options.binary);
+        if (options.prefix !== "")
+            prince.prefix(options.prefix);
+        if (options.license !== "")
+            prince.license(options.license);
+        prince.timeout(options.timeout);
+        prince.cwd(options.cwd);
+        prince.inputs(inputs);
+        prince.output(output);
         for (var name in options.option) {
             if (!options.option.hasOwnProperty(name))
                 continue;
