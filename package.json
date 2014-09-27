@@ -2,7 +2,7 @@
     "name":        "grunt-princess",
     "homepage":    "http://github.com/rse/grunt-princess",
     "description": "Grunt Task for running PrinceXML",
-    "version":     "0.9.1",
+    "version":     "0.9.2",
     "license":     "MIT",
     "author": {
         "name":    "Ralf S. Engelschall",
