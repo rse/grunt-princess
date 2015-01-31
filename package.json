@@ -24,12 +24,12 @@
     "devDependencies": {
         "grunt":                "~0.4.5",
         "grunt-cli":            "~0.1.13",
-        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-jshint": "~0.11.0",
         "grunt-contrib-clean":  "~0.6.0",
-        "grunt-eslint":         "~1.1.0"
+        "grunt-eslint":         "~5.1.0"
     },
     "dependencies": {
-        "prince":               ">=1.0.0",
+        "prince":               ">=1.0.2",
         "chalk":                ">=0.5.1"
     },
     "peerDependencies": {
