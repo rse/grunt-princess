@@ -1,8 +1,8 @@
 {
     "name":        "grunt-princess",
     "homepage":    "http://github.com/rse/grunt-princess",
-    "description": "Grunt Task for running PrinceXML",
-    "version":     "1.0.1",
+    "description": "Grunt Task for running XML/HTML to PDF renderer PrinceXML",
+    "version":     "1.0.2",
     "license":     "MIT",
     "author": {
         "name":    "Ralf S. Engelschall",
