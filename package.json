@@ -29,7 +29,7 @@
         "grunt-eslint":         "~20.1.0"
     },
     "dependencies": {
-        "prince":               ">=1.4.4",
+        "prince":               ">=1.4.6",
         "chalk":                ">=2.3.0"
     },
     "peerDependencies": {
