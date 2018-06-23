@@ -29,13 +29,13 @@
         "grunt-eslint":         "21.0.0"
     },
     "dependencies": {
-        "prince":               ">=1.4.6",
-        "chalk":                ">=2.3.0"
+        "prince":               ">=1.5.0",
+        "chalk":                ">=2.4.0"
     },
     "peerDependencies": {
-        "grunt":                ">=0.4.0"
+        "grunt":                ">=1.0.0"
     },
     "engines": {
-        "node":                 ">=0.10.0"
+        "node":                 ">=6.0.0"
     }
 }
