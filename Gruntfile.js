@@ -35,7 +35,7 @@ module.exports = function (grunt) {
         },
         eslint: {
             options: {
-                config: "eslint.json"
+                configFile: "eslint.json"
             },
             target: [ "tasks/grunt-princess.js" ]
         },
